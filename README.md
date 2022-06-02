@@ -34,6 +34,7 @@ Run `npm run dev` to start the server in the host **http://localhost:3333**
 ## Endpoints (Using Insomnia or Postman)
 
 `http://localhost:3333/user`: Use this endpoint to create your user.
+
 Data:
 
 - name (Required): Your name
@@ -43,6 +44,7 @@ Data:
 **Use Post, Read, Put or Delete methods in this very same endpoint to to create, read update or delete your user.**
 
 `http://localhost:3333/login`: Use this endpoint to create your login.
+
 Data:
 
 - email (Required): Your email
@@ -50,6 +52,7 @@ Data:
   **Use this endpoint with the method post, be sure to have created your user before logging in. After that, for all endpoints with you try to access, put the Bearer Token you'll receive in the Authorization tab to able to access.**
 
 `http://localhost:3333/deals`: Use this endpoint to create your deals.
+
 Data:
 
 - title (Required): Name of your deal
@@ -60,9 +63,11 @@ Data:
 **Use Post or Read methods in this very same endpoint to to create or read your deals.**
 
 `http://localhost:3333/deals/all`: Unlike the previous endpoint, this one bring all the deals you have, not only the ones with "won" status.
+
 Data:
 
 - None
-  **Use method Get in this one, make sure to have some deals made so you can read them!**
+
+**Use method Get in this one, make sure to have some deals made so you can read them!**
 
 <h4 align="center"> <em>&lt;/&gt;</em> by <a href="https://github.com/mauFade" target="_blank">Mauricio Cardoso</a> </h4>
