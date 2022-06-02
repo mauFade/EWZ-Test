@@ -49,7 +49,8 @@ Data:
 
 - email (Required): Your email
 - password (Required): Your password
-  **Use this endpoint with the method post, be sure to have created your user before logging in. After that, for all endpoints with you try to access, put the Bearer Token you'll receive in the Authorization tab to able to access.**
+ 
+**Use this endpoint with the method post, be sure to have created your user before logging in. After that, for all endpoints with you try to access, put the Bearer Token you'll receive in the Authorization tab to able to access.**
 
 `http://localhost:3333/deals`: Use this endpoint to create your deals.
 
